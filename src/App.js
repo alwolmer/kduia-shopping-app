@@ -11,6 +11,12 @@ function App() {
     <div className="App">
       <AppProvider>
         <CartValue />
+        <h3 className='mt-3'>Shopping Cart</h3>
+        <div className='row '>
+            <div className='col-sm'>
+                <ExpenseList />
+            </div>
+        </div>
       </AppProvider>
       {/* <h1>Teste</h1>
       <CartValue /> */}
