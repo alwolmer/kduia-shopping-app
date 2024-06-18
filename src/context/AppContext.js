@@ -93,6 +93,7 @@ export const AppProvider = (props) => {
 
     state.CartValue = totalExpenses;
 
+    /* passing the state object to the children components for rendering */
     return (
         <AppContext.Provider
             value={{
@@ -102,7 +103,6 @@ export const AppProvider = (props) => {
                 Location: state.Location
             }}>
             {props.children}
-            {/* passing the state object to the children components for rendering */}
         </AppContext.Provider>
     );
 };
