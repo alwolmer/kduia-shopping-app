@@ -9,7 +9,7 @@ const ItemSelected = (props) => {
     const [action, setAction] = useState('ADD_QUANTITY');
 
     const submitEvent = () => {
-        console.log(`name: ` + name + `\n quantity: ` + quantity + `\n action: ` + action)
+        // console.log(`name: ` + name + `\n quantity: ` + quantity + `\n action: ` + action)
         const item = {
             name: name,
             quantity: parseInt(quantity),
