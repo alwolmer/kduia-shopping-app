@@ -53,6 +53,7 @@ export const AppReducer = (state, action) => {
             };
         
         case 'CHG_LOCATION': //change location
+            //TODO: change value based on exchange rate
             state.Location = action.payload;
             action.type = 'DONE';
             return {
